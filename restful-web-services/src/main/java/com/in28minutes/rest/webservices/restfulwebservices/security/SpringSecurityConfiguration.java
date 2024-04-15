@@ -6,7 +6,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.stereotype.Controller;
 
 import static org.springframework.security.config.Customizer.withDefaults;
-
+/*
 @Controller
 public class SpringSecurityConfiguration {
     @Bean
@@ -26,3 +26,4 @@ public class SpringSecurityConfiguration {
         return http.build();
     }
 }
+*/
