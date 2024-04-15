@@ -21,7 +21,6 @@ class AppConfig {
                 build();
         return new InMemoryUserDetailsManager(userDetails);
     }
-
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
